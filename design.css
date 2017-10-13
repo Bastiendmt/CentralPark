@@ -8,11 +8,6 @@ html,body {
 	background: url(img/sw/spacebg.png);
 }
 
-#Static {
-	background: #662C2C;
-	text-align: center;
-
-}
 .space {
 	background: url(img/sw/background.jpg);
 	height: 530px; 
@@ -23,6 +18,10 @@ h1, h2,h3 {
 }
 h1, h2,h3, p {
 	color:yellow;
+}
+
+h3 {
+	text-align: center;
 }
 
 

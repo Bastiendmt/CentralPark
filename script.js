@@ -16,4 +16,10 @@ jQuery(document).ready(function(){
         $(this).css("background-color", "pink");
     }); */
 
+    $.get( "https://swapi.co/api/people/1/?format=json", function( data ) {
+  $( ".result" ).html( data ),data.name;
+  console.log( "Load was performed,", "data.name = ", data.name );
+  $("#Dynamique h2").text(data.name);
+});
+
 });
