@@ -1,0 +1,27 @@
+
+
+body img {
+	width: 100%;
+}
+
+#Static {
+	background: #662C2C;
+	text-align: center;
+
+}
+
+#Personnages {
+	display: flex;
+	justify-content: center;	
+}
+
+.personnage {
+	width: 30%;
+	margin: 5px;
+	background-color:grey;
+	text-align: center;
+}
+#Personnages img {
+	width: 150px;
+	height: 150px;
+}
