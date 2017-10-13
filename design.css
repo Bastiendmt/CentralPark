@@ -4,24 +4,26 @@ body img {
 	width: 100%;
 }
 
+html,body {
+	background: url(img/sw/spacebg.png);
+}
+
 #Static {
 	background: #662C2C;
 	text-align: center;
 
 }
-
-#Personnages {
-	display: flex;
-	justify-content: center;	
+.space {
+	background: url(img/sw/background.jpg);
+	height: 530px; 
 }
 
-.personnage {
-	width: 30%;
-	margin: 5px;
-	background-color:grey;
-	text-align: center;
+h1, h2,h3 {
+	text-shadow: 0 0 10px #fff;
 }
-#Personnages img {
-	width: 150px;
-	height: 150px;
+h1, h2,h3, p {
+	color:yellow;
 }
+
+
+
